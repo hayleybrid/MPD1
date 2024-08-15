@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!--HAYLEY_BRIDGES_S2333704 -->
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:id="@+id/imageViewRaceStatus">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/textViewRound"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Round"
+        android:textAlignment="center"
+        android:textColor="@color/Red"
+        android:paddingEnd="8dp" />
+
+    <TextView
+        android:id="@+id/textViewRaceName"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/Red"
+        android:textStyle="bold"
+        android:text="Race"
+        android:paddingEnd="8dp" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Date"
+        android:textStyle="bold"
+        android:textColor="@color/Red"
+        android:paddingEnd="8dp" />
+
+</LinearLayout>

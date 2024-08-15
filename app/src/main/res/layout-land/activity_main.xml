@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?><ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#000000">
+
+    <!--HAYLEY_BRIDGES_S2333704 -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/textViewDateTime"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:padding="8dp"
+            android:text="Datetimeupdate"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/BtnRace"
+            android:text="RACE SCHEDULE"
+            android:backgroundTint="@color/Red"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </Button>
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewTitle"
+            android:text="FORMULA 1 DRIVER STANDINGS"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:textColor="@color/Red">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:weightSum="5">
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:id="@+id/image1"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:id="@+id/image4"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:id="@+id/image5"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:id="@+id/image3"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1dp"
+            android:clipToPadding="false"
+            android:dividerHeight="1dp"
+            android:cacheColorHint="#FFFFFF"/>
+
+
+           </LinearLayout>
+    </LinearLayout>
+</ScrollView>

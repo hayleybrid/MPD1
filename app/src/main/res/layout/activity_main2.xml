@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:id="@+id/main"
+    tools:context=".MainActivity2"
+    android:padding="4dp"
+    android:background="#000000">
+
+    <!--HAYLEY_BRIDGES_S2333704 -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewTitle"
+            android:text="FORMULA 1 RACE SCHEDULE"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/Red">
+        </TextView>
+
+        <Button
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/BtnDrivers"
+            android:text="DRIVER STANDINGS"
+            android:backgroundTint="@color/Red"
+            android:textStyle="bold"
+            android:textColor="@color/black">
+        </Button>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/textViewUpdated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:padding="8dp"
+                android:text="Updated at: "
+                android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/textViewDateTime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:text="Datetimeupdate"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:weightSum="3">
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:id="@+id/image1"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:id="@+id/image2"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:id="@+id/image3"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"/>
+
+
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:clipToPadding="false"
+            android:dividerHeight="1dp"
+            android:cacheColorHint="#FFFFFF"
+            android:layout_marginTop="56dp"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
+
